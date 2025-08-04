@@ -31,6 +31,7 @@ llm_openai = LLM(
 )
 ```
 You can also set the parameters for LLMs like temperatue etc here.
+
 ---
 # Experiment 1: Starter Code
 
@@ -48,6 +49,7 @@ Links:
 - Reference Video: https://www.youtube.com/watch?v=6NbJQsCg1VQ&t=249s
 - Reference Git: https://github.com/leonvanzyl/crewai-youtube/blob/master/main.py
 - Python File Link: https://github.com/royn5618/AgenticExperiments/blob/main/CrewAI/1_SimpleExperiments/1_crew_ai_exp.py
+
 ---
 # Experiment 2: Extension of the Starter Code
 
@@ -76,6 +78,7 @@ I built my first agentic class: **LePetitCafeCrew** with the same configuration 
 Links:
 - Config files with yaml files of agents and tasks: https://github.com/royn5618/AgenticExperiments/tree/main/CrewAI/2_DecoratorExample/Barista/config
 - Main (where the crew resides): https://github.com/royn5618/AgenticExperiments/blob/main/CrewAI/2_DecoratorExample/Barista/main.py
+
 ---
 # Experiment 4: Using Hierarchical Process
 
@@ -136,6 +139,7 @@ Here's the difference between the settings of the managers:
     - can analyze, restructure, and assign tasks intelligently
     - Uses the task description and agents’ roles to plan a smart hierarchy
     - Can write new instructions, provide feedback, and restructure work based on results
+
 ---
 # Experiment 5: News Manager
 
