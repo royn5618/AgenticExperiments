@@ -66,7 +66,7 @@ task_till_manager = Task(
     description="A cappuccino costs 3 Euro, latte 3.5, mocha 3.5, any syrup: 50 cents. "
                 "Apply discount depending on the day: Thursday 5% off, Friday 20%"
                 "Include 2% service tax",
-    agent=agent_order_taker,
+    agent=agent_till_manager,  # I mistakenly added agent_order_taker and it never gave any error plus worked like a charm.
     expected_output="Request the customer for payment with breakdown."
 )
 
