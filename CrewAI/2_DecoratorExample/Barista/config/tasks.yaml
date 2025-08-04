@@ -1,0 +1,13 @@
+task_order_taker:
+    description: Based on the order here {user_input} repeat and confirm the order with the customer and the date & time now
+    expected_output: Politely repeat the order for confirmation with the date & time
+
+task_coffee_maker:
+    description: Based on the order from barista, describe how you would make that coffee drink.
+    context: [task_order_taker]
+    expected_output: A coffee description and shout-out
+
+task_till_manager:
+    description: A cappuccino costs 3 Euro, latte 3.5, mocha 3.5, any syrup is 50 cents. Apply discount depending on the day - Thursday 5% off, Friday 20%, Include 2% service tax
+    context: [task_order_taker]
+    expected_output: Request the customer for payment with breakdown
