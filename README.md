@@ -44,7 +44,7 @@ Links:
 
 # Extension of the Starter Code
 
-I cooked up a naive experiment for sequential tasks.
+I cooked up a naive experiment for **sequential** tasks.
 
 Specs:
 
@@ -54,9 +54,23 @@ Specs:
 - Relationship: Sequential
 - Dependency/Context: Task 2 need the context of Task 1
 
-Python File Link: https://github.com/royn5618/AgenticExperiments/blob/main/CrewAI/1_SimpleExperiments/2_extending_example.py
+Link:
+- Python File Link: https://github.com/royn5618/AgenticExperiments/blob/main/CrewAI/1_SimpleExperiments/2_extending_example.py
+- Output PDF Link: https://github.com/royn5618/AgenticExperiments/blob/main/CrewAI/1_SimpleExperiments/2_Output.pdf
 
 ⚠️ Important: I mistakenly added agent1 to task3 instead of agent3 and it worked like a charm. The agent 3 was never used initially until I tried interpreting the report.
+
+# Using Decorators
+
+Once I got a hang of this sequential process, I thought it is time to look at the **yaml files and decorators**. So I transferred the same example of **Barista** to this format.
+
+I built my first agentic class: **LePetitCafeCrew** with the same configuration at above.
+
+Links:
+- Config files with yaml files of agents and tasks: https://github.com/royn5618/AgenticExperiments/tree/main/CrewAI/2_DecoratorExample/Barista/config
+- Main (where the crew resides): https://github.com/royn5618/AgenticExperiments/blob/main/CrewAI/2_DecoratorExample/Barista/main.py
+
+# Using Hierarchical Process
 
 
 
