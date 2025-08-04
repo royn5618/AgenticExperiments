@@ -177,7 +177,8 @@ llm_openai_creative = LLM(
 ```
 
 The news manager currently identifies the need to have an analyst extract metadata, then use the report write to write the article in the given format, then use the tele script writer to create a script that the on-air television journalist can use and finally, uses the content reviewer to approve or reject with appropriate comments for both - the article and the script.
+
 ---
 
-*That's all folks for now! Will come back with using tools, agno and nested crews soon*
+*That's all folks for now! Will come back with using tools, agno and nested crews **soon***
 
