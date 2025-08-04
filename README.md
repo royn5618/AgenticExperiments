@@ -6,6 +6,12 @@ This is where I have documented all my agentic AI experiments.
 ---
 # Set-Up
 
+Create a virtual environment and install all requirements - you can use my requirements.txt to speed up!
+
+❗**Make sure your Python is >=3.10 and <3.14**
+
+**I am using 👉 Python 3.13 with crewai==0.152.0 and crewai-tools==0.0.1**
+
 ```bash
 cd $your_project
 python -m venv crewai_env 
